@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report a bug in clover
+labels: ["kind: bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking time to submit this report :D
+
+        Before submitting bug report, please check the following, which may resolve your issue:
+        * Have you checked that you are checking the latest versions of clover?
+        * Have you [searched existing issues](https://github.com/hannbyul/clover/issues?q=is%3Aopen+is%3Aissue+label%3Akind%3A%20bug) to see if this bug has been reported berfore?
+
+        **Important:** If this bug is critical, please submit it privately.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Description of bug, with any relavant log messages.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps or Ideas to reproduce
+      description: Steps or Ideas to reproduce bugs.
+
+  - type: textarea
+    attributes:
+      label: Envrionment
+      description: Many common issues are caused by problem with local environment. Before submitting, double-check your version of docker and others.
